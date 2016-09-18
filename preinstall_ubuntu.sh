@@ -8,6 +8,6 @@ for n in kdewebdev mailutils xorg-dev\
     gawk xpdf sendmail g++ flex\
     bison konsole
 do
-    sudo apt-get install -y $n
+    sudo apt-get install -y -q --force-yes $n
 done
 
