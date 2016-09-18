@@ -1,4 +1,4 @@
-#!/bin/gawk -f
+#!/usr/bin/gawk -f
 
 #Copyright (C) 2006 Abhishek Choudhary
 #This file is part of the Hindawi Indic Programming System.
