@@ -1,8 +1,13 @@
 #!/bin/bash -f
 
 #Preinstall reqs for Ubuntu
-for n in x-dev xlibs-static-dev kommander gawk xpdf mailx sendmail g++ gcj flex bison konsole
-	do 
-		apt-get install $n
-	done
+sudo apt-get update
+
+for n in kdewebdev mailutils xorg-dev\
+    xorglibs-static-dev kommander\
+    gawk xpdf sendmail g++ flex\
+    bison konsole
+do
+    sudo apt-get install -y $n
+done
 
