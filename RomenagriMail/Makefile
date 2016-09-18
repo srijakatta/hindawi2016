@@ -54,7 +54,7 @@ explain:
 
 #Create swatantra
 dakia:
-	@echo -e "#!/bin/bash\nkmdr-executor $(INSTROOT)$(APPPATH)/RomenagriMail.kmdr"  > $@
+	@echo -e "#!/bin/bash\nkommander $(INSTROOT)$(APPPATH)/RomenagriMail.kmdr"  > $@
 	chmod 777 dakia
 
 #Install the stuff

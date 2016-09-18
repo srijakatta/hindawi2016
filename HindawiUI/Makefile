@@ -54,7 +54,7 @@ explain:
 
 #Create swatantra
 laghu:
-	@echo -e "#!/bin/bash\nkmdr-executor $(INSTROOT)$(APPPATH)/HindawiUI.kmdr"  > $@
+	@echo -e "#!/bin/bash\nkommander $(INSTROOT)$(APPPATH)/HindawiUI.kmdr"  > $@
 	chmod 777 laghu
 
 #Install the stuff

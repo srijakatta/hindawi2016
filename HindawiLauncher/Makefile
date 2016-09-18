@@ -54,7 +54,7 @@ explain:
 
 #Create swatantra
 swatantra:
-	@echo -e "#!/bin/bash\nkmdr-executor $(INSTROOT)$(APPPATH)/HindawiLauncher.kmdr"  > $@
+	@echo -e "#!/bin/bash\nkommander $(INSTROOT)$(APPPATH)/HindawiLauncher.kmdr"  > $@
 	chmod 777 swatantra
 
 #Install the stuff

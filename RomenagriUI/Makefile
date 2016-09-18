@@ -54,7 +54,7 @@ explain:
 
 #Create swatantra
 rome:
-	@echo -e "#!/bin/bash\nkmdr-executor $(INSTROOT)$(APPPATH)/RomenagriUI.kmdr"  > $@
+	@echo -e "#!/bin/bash\nkommander $(INSTROOT)$(APPPATH)/RomenagriUI.kmdr"  > $@
 	chmod 777 rome
 
 #Install the stuff
